@@ -1,5 +1,7 @@
 # 雨夜便利店 · Rainy Night Konbini
 
+**在线体验：** [打开 GitHub Pages 雨夜街区](https://kaorumiyagawa.github.io/Rainy-Night-Konbini/)
+
 一个以日式雨夜街区为主题的交互式 Three.js 微缩场景。画面从街角便利店展开，延伸到网吧、酒吧与湿润的夜间街道；霓虹招牌、雨丝和路面反光共同构成安静的城市夜景。
 
 ![雨夜街区场景截图](docs/screenshots/scene.png)
@@ -26,7 +28,7 @@
 
 ## 运行
 
-在文件管理器中用 Chrome 或 Edge 打开 [`index.html`](index.html) 即可。场景将由本地 HTML 文件直接运行，不需要联网、安装插件或启动开发服务器。
+在线版本通过 GitHub Pages 发布，可直接在浏览器体验；本地仍可在文件管理器中用 Chrome 或 Edge 打开 [`index.html`](index.html)。场景使用内嵌 Three.js，不需要安装插件或构建工具。在线页面通过 HTTPS 提供，后续推送到 `main` 分支的提交会自动更新站点。
 
 ## 技术与协作
 
