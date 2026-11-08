@@ -1,0 +1,36 @@
+# Dependencies and build caches
+node_modules/
+.cache/
+.parcel-cache/
+.vite/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Logs, temporary files, and local browser profiles
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.blend1
+*.blend2
+edge-test-profile/
+
+# Existing packaged copy of source and screenshots
+/雨夜便利店-分享包.zip
